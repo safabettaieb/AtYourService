@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"
+        android:title="Accueil">
+    </item>
+    <item
+        android:id="@+id/action_signout"
+        android:icon="@drawable/ic_lock"
+        app:showAsAction="ifRoom"
+        android:title="Déconnecter">
+    </item>
+</menu>
